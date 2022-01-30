@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="bg">
-      <v-container>
-        <v-row style="height: 100vh" no-gutters align="center" justify="center">
+      <v-container style="height:100%">
+        <v-row style="height: 100%" no-gutters align="center" justify="center">
           <v-col cols="12" xl="6" lg="6"> </v-col>
           <v-col cols="12" xl="6" lg="6">
             <p
@@ -39,7 +39,7 @@ export default {
       rgba(0, 0, 0, 0.5) 100%
     ),
     url("../assets/images/hero2.jpg");
-  height: 100vh;
+  height: 100vh !important;
   background-size: cover;
 }
 .btn{
