@@ -15,7 +15,10 @@ body,html{
     font-size: 28px !important;
 }
 .font-3{
-    font-size: 18px !important;
+    font-size: 13px !important;
+}
+.font-head{
+    font-size: 10px !important;
 }
 
 @media screen and (max-width:600px) {
