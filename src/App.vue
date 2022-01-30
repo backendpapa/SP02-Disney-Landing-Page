@@ -1,41 +1,32 @@
 <template>
   <v-app>
-    <!-- <v-app-bar
-      app
-      color="primary"
-      dark
+    <v-app-bar
+    class="pa-2"
+      fixed
+      color="transparent"
+      flat
     >
       <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
+       <p><v-img src="./assets/images/Logo.png"></v-img></p>
       </div>
 
+  <div class="d-none d-sm-flex">
+     <div style="margin-left:10%"  class="d-flex align-center">
+     <v-btn  small plain text style="text-transform:none" class="font-3 weight-500 white--text"><v-icon size="18">mdi-home</v-icon> <span class="mb-n1">HOME</span></v-btn>
+      <v-btn small plain text style="text-transform:none" class="font-3 weight-500 white--text"><v-icon size="18">mdi-magnify</v-icon> <span class="mb-n1">SEARCH</span></v-btn>
+       <v-btn small plain text style="text-transform:none" class="font-3 weight-500 white--text"><v-icon size="18">mdi-plus</v-icon> <span class="mb-n1">WATCHLIST</span></v-btn>
+       <v-btn small plain text style="text-transform:none" class="font-3 weight-500 white--text"><v-icon size="18">mdi-star</v-icon> <span class="mb-n1">ORIGINALS</span></v-btn>
+       <v-btn small plain text style="text-transform:none" class="font-3 weight-500 white--text"><v-icon size="18">mdi-movie-star-outline</v-icon> <span class="mb-n1">MOVIES</span></v-btn>
+       <v-btn small plain text style="text-transform:none" class="font-3 weight-500 white--text"><v-icon size="18">mdi-wallet-giftcard</v-icon> <span class="mb-n1">SERIES</span></v-btn>
+       
+      </div>
+  </div>
       <v-spacer></v-spacer>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar> -->
+     
+        <v-app-bar-nav-icon class="white--text d-flex d-sm-none" />
+     
+    </v-app-bar>
 
     <v-main>
       <router-view/>
@@ -53,3 +44,8 @@ export default {
   }),
 };
 </script>
+<style>
+.weight-500{
+  font-weight: 500 !important;
+}
+</style>
