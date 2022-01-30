@@ -15,7 +15,7 @@
               A magical door will soon open that will take you to the wonderful
               world of Disney!
             </p>
-           <p class="text-align"> <v-btn rounded  class="font-2 btn" color="red" elevation="5" dark x-large style="text-transform:none;font-weight:850;width:340px">Back to home</v-btn></p>
+           <p class="text-align"> <v-btn rounded  class="font-2 btn" color="red" elevation="5" dark x-large style="text-transform:none;font-weight:850;width:340px">Coming soon!</v-btn></p>
           </v-col>
         </v-row>
       </v-container>

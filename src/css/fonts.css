@@ -9,23 +9,23 @@ body,html{
 
 
 .font-1{
-    font-size: 72px;
+    font-size: 72px !important;
 }
 .font-2{
-    font-size: 28px;
+    font-size: 28px !important;
 }
 .font-3{
-    font-size: 18px;
+    font-size: 18px !important;
 }
 
 @media screen and (max-width:600px) {
     .font-1{
-        font-size: 42px;
+        font-size: 42px !important;
     }
     .font-2{
-        font-size: 14px;
+        font-size: 14px !important;
     }
     .font-3{
-        font-size: 10px;
+        font-size: 10px !important;
     }
 }
