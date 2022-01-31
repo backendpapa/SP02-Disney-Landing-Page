@@ -38,7 +38,7 @@ export default {
       rgba(0, 0, 0, 0.273638) 51.03%,
       rgba(0, 0, 0, 0.5) 100%
     ),
-    url("../assets/images/hero2.jpg");
+    url("../assets/images/peakpx.jpg");
   height: 100vh !important;
   background-size: cover;
 }
@@ -52,6 +52,7 @@ export default {
   .text-align{
     text-align: left;
   }
+  
   .btn{
     width: 200px !important ;
   }
